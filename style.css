@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    font-size: 41px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    margin: 0;
+    padding: 30px;
+}
+
+.diceContainer{
+    display:flex;
+    justify-content: space-around;
+    margin: 50px 0 0;
+}
+
+.diceContainer p {
+    font-size: 18px;
+}
+
+.oneContainer, .twoContainer{
+    text-align: center;
+}
+
+
+.btn{
+    margin-top: 40px;
+    font-size: larger;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    font-size: 20px;
+}
+
+footer{
+    margin: 50px 0 0;
+    background-color: #1f2937;
+    padding: 30px;
+    color: #f9faf8;
+}
+
+footer > a{
+    text-decoration: none;
+    color: #f9faf8;
+}
